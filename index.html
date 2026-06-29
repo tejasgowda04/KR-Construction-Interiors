@@ -1630,27 +1630,17 @@
       margin-bottom: 32px;
     }
 
-    .footer-brand-name {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: #4D4D4D;
-      margin-bottom: 14px;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
+    .footer-brand-link {
+      display: inline-block;
+      margin-bottom: 16px;
     }
 
-    .footer-brand-name span {
-      color: #4D4D4D;
-    }
-
-    .footer-logo {
-      height: 32px;
+    .footer-brand-logo {
+      height: 48px;
       width: auto;
       object-fit: contain;
+      mix-blend-mode: multiply;
+      display: block;
     }
 
     .footer-desc {
@@ -2582,10 +2572,9 @@
     <div class="footer-inner">
       <div class="footer-top">
         <div>
-          <div class="footer-brand-name">
-            <img src="logo.jpeg" alt="KR Logo" class="footer-logo" />
-            <span>KR</span> Constructions &amp; Interiors
-          </div>
+          <a href="#home" class="footer-brand-link">
+            <img src="font.jpeg" alt="KR Constructions &amp; Interiors" class="footer-brand-logo" />
+          </a>
           <p class="footer-desc">Complete construction &amp; interior design solutions. From foundation to finishing —
             delivered with quality, trust, and modern design sensibility.</p>
           <div class="footer-socials">

@@ -211,24 +211,14 @@
     .nav-brand {
       display: flex;
       align-items: center;
-      gap: 10px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: clamp(0.95rem, 2.2vw, 1.25rem);
-      font-weight: 800;
-      color: #4D4D4D;
-      white-space: nowrap;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
     }
 
-    .nav-brand span {
-      color: #4D4D4D;
-    }
-
-    .nav-logo {
-      height: 38px;
+    .nav-brand-logo {
+      height: 42px;
       width: auto;
       object-fit: contain;
+      mix-blend-mode: multiply;
+      display: block;
     }
 
     .nav-links {
@@ -2003,8 +1993,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="#home" class="nav-brand">
-        <img src="logo.jpeg" alt="KR Logo" class="nav-logo" />
-        <span>KR</span> Constructions &amp; Interiors
+        <img src="font.jpeg" alt="KR Constructions &amp; Interiors" class="nav-brand-logo" />
       </a>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
